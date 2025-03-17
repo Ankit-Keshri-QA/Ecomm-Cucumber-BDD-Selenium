@@ -2,6 +2,7 @@
 
 Feature: User Login Functionality
 
+  @Sanity
   Scenario Outline: Successful and unsuccessful user login
     Given the user is on the login page
     When the user enters username "<username>" and password "<password>"

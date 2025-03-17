@@ -3,6 +3,7 @@ Feature: Dummy Feature
   If I enter my details in the Register User Form
   My Account should be created on the website
 
+
   Scenario: Dummy Register
     Given I am on the fake Register page
     When I enter my details

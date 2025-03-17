@@ -3,6 +3,7 @@ Feature: Entitlement - Request Access from AGNES UI
   I want to create an entitlement for myself
   So that I can use the resource for my project purposes
 
+  @Smoke
   Scenario Outline: Successful Entitlement Creation via Request Access
     Given I am on the homepage
     When I enter my "<username>" and "<password>"
